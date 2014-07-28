@@ -21,4 +21,4 @@ Available states
 ``vagrant.deb``
 -------------------------------------
 
-Installs the vagrant package.
+Installs the Vagrant Debian package.
