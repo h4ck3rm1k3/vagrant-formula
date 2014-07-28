@@ -1,0 +1,3 @@
+vagrant::
+  lookup:
+    master: vagrant-master
