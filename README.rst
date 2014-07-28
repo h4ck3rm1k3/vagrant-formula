@@ -18,8 +18,7 @@ Available states
 .. contents::
     :local:
 
-``vagrant``
+``vagrant.deb``
 -------------------------------------
 
-Installs the vagrant package,
-and starts the associated vagrant service.
+Installs the vagrant package.
