@@ -1,11 +1,13 @@
 
-{% from "template/map.jinja" import template with context %}
+{#
+{% from "vagrant/map.jinja" import vagrant with context %}
 
-template:
+vagrant:
   pkg:
     - installed
-    - name: {{ template.pkg }}
+    - name: {{ vagrant.pkg }}
   service:
     - running
-    - name: {{ template.service }}
+    - name: {{ vagrant.service }}
     - enable: True
+#}

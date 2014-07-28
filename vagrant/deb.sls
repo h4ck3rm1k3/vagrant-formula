@@ -11,7 +11,7 @@ To upgrade to a new VAGRANT_VER:
 
 #}
 
-{% set VAGRANT_VER  = "1.6.2" %}
+{% set VAGRANT_VER  = salt['pillar.get']("VAGRANT_VER", "1.6.2") %}
 {% set VAGRANT_ARCH = grains['osarch'] %}  # i686 or x86_64
 {% set VAGRANT_URL = "https://dl.bintray.com/mitchellh/vagrant" %}
 
